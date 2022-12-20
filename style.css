@@ -1,0 +1,160 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #00101f;
+    color: #e2e8f0;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #e2e8f0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.banner-content-right img{
+    width: 400px;
+    border-radius: 50%;
+}
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.banner-content-right{
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background: #00101f;
+    
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #e2e8f0;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+nav a img{
+    width:150px
+}
+nav{
+    max-width:1240px ;
+    margin: auto;
+}
+#banner-section{
+    padding: 150px 0px;
+}
+.banner-content-left h2{
+    font-size: 55px;
+    line-height: 55px;
+    margin: 0;
+}
+.banner-content-left p{
+    font-size: 18px;
+}
+.banner-content-left button{
+    padding: 10px 12px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.row-portfolio{
+    display: grid;
+    grid-template-columns:auto auto;
+    margin: 10px;
+    padding: 10px;
+    column-gap: 50px;
+
+
+
+}
+.portfolio-header h3{
+   font-size: 35px;
+   margin: 0px 0px;
+}
+.portfolio-header p{
+    font-size: 18px;
+    width: 60%;
+}
+
+
+img{
+    max-width: 100%;
+}
+img:hover{
+    filter: brightness(80%);
+}
+#myinto{
+  margin: auto;
+}
+.myinto-section-header h2{
+    font-size: 35px;
+}
+.myinto-section-header p{
+    font-size: 20px;
+    line-height: 25px;
+    color: #b2bdc7;
+    font-weight: 500;
+}
+
+.row{
+    margin: auto;
+}
+.blog-header h2{
+  font-size: 35px;
+}
+.blog-box h3{
+    font-size: 25px;
+    color: tomato;
+}
+.blog-box small{
+    font-size: 16px;
+    font-weight: bold;
+}
+.blog-box p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.blog-box p a{
+    color: tomato;
+    display: block;
+}
+.row-contact{
+    display: flex;
+}
+.contact-right iframe{
+    border-radius: 10px;
+}
+.contact-left form input, textarea{
+    padding: 10px;
+    margin: 5px 0px;
+    font-size: 18px;
+    width: 90%;
+
+}
+.contact-left button{
+    font-size: 20px;
+    padding: 12px 30px;
+}
+.contact-left{
+    margin-right: 10px;
+}
+footer{
+    text-align: center;
+    padding: 10px 0px;
+    border-top:2px solid tomato;
+    margin-top: 25px;
+}
+.banner-content-left{
+    width: 60%;
+}
